@@ -23,6 +23,7 @@ new_cpp() {
         echo "done"
         echo "renaming the clion project settings"
         mv ./.idea/project_name.iml.tmpl ./.idea/$1.iml
+        mv ./.idea/gitignore ./.idea/.gitignore
         mv README.tmpl README.md
         echo "done"
         echo "initializing git"
