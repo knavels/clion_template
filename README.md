@@ -28,7 +28,7 @@ new_cpp() {
         echo "done"
         echo "initializing git"
         git init
-        echo "commiting new changes"
+        echo "committing new changes"
         git add .
         git commit -m "initial commit"
         echo "done"
